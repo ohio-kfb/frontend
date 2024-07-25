@@ -26,9 +26,9 @@ const router = createRouter({
       component: () => import('../views/BeyondView.vue')
     },
     {
-      path: '/contact-us',
-      name: 'contact-us',
-      component: () => import('../views/ContactUsView.vue')
+      path: '/curtain',
+      name: 'curtain',
+      component: () => import('../views/CurtainView.vue')
     },
     {
       path: '/flooring',

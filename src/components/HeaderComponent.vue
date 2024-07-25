@@ -27,7 +27,7 @@
       <router-link :to="{name: 'flooring'}" class="py-2 hover:text-blue-500">flooring</router-link>
       <router-link :to="{name: 'bath'}" class="py-2 hover:text-blue-500">bath</router-link>
       <router-link :to="{name: 'beyond'}" class="py-2 hover:text-blue-500">beyond</router-link>
-      <router-link :to="{name: 'contact-us'}" class="py-2 hover:text-blue-500">contact us</router-link>
+      <router-link :to="{name: 'curtain'}" class="py-2 hover:text-blue-500">curtain</router-link>
     </nav>
   </header>
 </template>

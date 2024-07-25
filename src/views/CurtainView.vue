@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="grow">communication</div>
+  <div class="grow">curtain</div>
 </template>
 
 <style scoped>

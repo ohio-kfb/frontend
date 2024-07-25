@@ -6,7 +6,7 @@
   <header class="flex flex-wrap uppercase">
     <div class="flex w-full items-center justify-between gap-x-4 px-4">
       <router-link :to="{name: 'home'}" class="py-2 hover:text-blue-500">
-        <img class="w-48" src="/public/img/dummy-logo-3.png" alt="">
+        <img class="w-48" src="/img/dummy-logo-3.png" alt="">
       </router-link>
       <h1 class="grow text-center text-4xl font-bold">KFB</h1>
       <div class="flex gap-x-4">

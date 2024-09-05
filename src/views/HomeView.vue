@@ -1,10 +1,48 @@
 <script setup>
+import Card from '@/components/Card.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-3">
-    <div class="bg-green-500 text-center">Kitchen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iste magni mollitia pariatur sed tempora vel. Asperiores debitis explicabo libero minima nihil odio officiis porro praesentium ratione, saepe sequi, soluta?</div>
-    <div class="bg-fuchsia-500 text-center">Bath Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque hic quaerat rem vitae voluptatem. Assumenda esse repudiandae sit voluptate. Dolores eius incidunt iure minima nostrum perferendis quos recusandae reiciendis voluptatem.</div>
-    <div class="bg-gray-600 text-center">Flooring Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti dolores harum molestias numquam, quisquam tenetur? Accusantium excepturi fugit impedit non nostrum, quaerat rerum sed temporibus totam velit! Ab, nemo.</div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 p-4">
+    <Card>
+      <template #img>
+        <img src="@/assets/images/home/kit-2.jpg" alt="kitchen" class="object-center object-cover">
+      </template>
+      <template #title>
+        A Culinary Haven
+      </template>
+      <template #text>
+        Transform your kitchen into a culinary haven with our expert renovation services. From modern upgrades to
+        classic makeovers, we design and create functional, stylish spaces that meet your needs and reflect your
+        taste.
+      </template>
+    </Card>
+    <Card>
+      <template #img>
+        <img src="@/assets/images/home/bath-10.jpg" alt="bathroom" class="object-center object-cover">
+      </template>
+      <template #title>
+        Elevate your bathroom
+      </template>
+      <template #text>
+        Elevate your bathroom experience with our tailored renovation solutions. Whether you’re
+        dreaming of a spa-like retreat or a sleek, contemporary look, we craft beautiful, practical bathrooms that offer
+        both comfort and elegance.
+      </template>
+    </Card>
+    <Card>
+      <template #img>
+        <img src="@/assets/images/home/floor-13.jpg" alt="flooring" class="object-center object-cover">
+      </template>
+      <template #title>
+        Premium flooring
+      </template>
+      <template #text>
+        Revitalize your home with our premium flooring options. From luxurious hardwood to
+        durable tile and cozy carpets, we provide expert installation and design advice to ensure your floors enhance
+        the
+        beauty and functionality of your space.
+      </template>
+    </Card>
   </div>
 </template>

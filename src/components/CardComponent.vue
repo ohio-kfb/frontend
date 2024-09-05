@@ -4,7 +4,7 @@
 
 <template>
   <div class="bg-white rounded-xl">
-    <div class="w-full h-52 overflow-hidden">
+    <div class="w-full h-36 overflow-hidden">
       <slot name="img"></slot>
     </div>
     <div class="p-2">

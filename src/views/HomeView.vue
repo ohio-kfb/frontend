@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue'
+import CardComponent from '@/components/CardComponent.vue'
 </script>
 
 <template>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 p-4">
-    <Card>
+    <CardComponent>
       <template #img>
         <img src="@/assets/images/home/kit-2.jpg" alt="kitchen" class="object-center object-cover">
       </template>
@@ -16,8 +16,8 @@ import Card from '@/components/Card.vue'
         classic makeovers, we design and create functional, stylish spaces that meet your needs and reflect your
         taste.
       </template>
-    </Card>
-    <Card>
+    </CardComponent>
+    <CardComponent>
       <template #img>
         <img src="@/assets/images/home/bath-10.jpg" alt="bathroom" class="object-center object-cover">
       </template>
@@ -29,8 +29,8 @@ import Card from '@/components/Card.vue'
         dreaming of a spa-like retreat or a sleek, contemporary look, we craft beautiful, practical bathrooms that offer
         both comfort and elegance.
       </template>
-    </Card>
-    <Card>
+    </CardComponent>
+    <CardComponent>
       <template #img>
         <img src="@/assets/images/home/floor-13.jpg" alt="flooring" class="object-center object-cover">
       </template>
@@ -43,6 +43,6 @@ import Card from '@/components/Card.vue'
         the
         beauty and functionality of your space.
       </template>
-    </Card>
+    </CardComponent>
   </div>
 </template>

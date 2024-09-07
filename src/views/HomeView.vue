@@ -4,7 +4,7 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 md:gap-y-0 gap-y-4">
 
     <r-link-component :to="{name: 'kitchen'}" class="no-underline border border-white hover:border-orange-600">
       <CardComponent class="h-full">

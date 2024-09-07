@@ -16,7 +16,7 @@ export default {
 
 <template>
   <header-component />
-  <div class="md:flex">
+  <div class="md:flex mt-16 md:mt-0">
     <main class="w-full md:basis-3/4">
       <carousel-component />
       <router-view />

@@ -28,22 +28,22 @@ const toggleMenu = () => {
     </div>
     <ul class="w-full md:flex justify-evenly text-end pr-4 md:space-y-0 space-y-2 md:py-2" :class="{hidden: !isExpanded}">
       <li>
-        <router-link :to="{name: 'home'}" class="py-2 hover:text-blue-500 font-bold">home</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'home'}" class="py-2 hover:text-blue-500 font-bold">home</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'kitchen'}" class="py-2 hover:text-blue-500 font-bold">kitchen</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'kitchen'}" class="py-2 hover:text-blue-500 font-bold">kitchen</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'flooring'}" class="py-2 hover:text-blue-500 font-bold">flooring</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'flooring'}" class="py-2 hover:text-blue-500 font-bold">flooring</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'bath'}" class="py-2 hover:text-blue-500 font-bold">bath</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'bath'}" class="py-2 hover:text-blue-500 font-bold">bath</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'beyond'}" class="py-2 hover:text-blue-500 font-bold">beyond</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'beyond'}" class="py-2 hover:text-blue-500 font-bold">beyond</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'curtain'}" class="py-2 hover:text-blue-500 font-bold">curtain</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'curtain'}" class="py-2 hover:text-blue-500 font-bold">curtain</router-link>
       </li>
     </ul>
   </nav>

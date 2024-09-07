@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-white rounded-xl">
+  <div class="bg-white">
     <div class="w-full h-36 overflow-hidden">
       <slot name="img"></slot>
     </div>

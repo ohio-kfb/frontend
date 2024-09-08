@@ -1,5 +1,4 @@
 <script setup>
-
 import HomePageCardContentComponent from '@/components/HomePageCardContentComponent.vue'
 import CardComponent from '@/components/CardComponent.vue'
 </script>
@@ -36,7 +35,6 @@ import CardComponent from '@/components/CardComponent.vue'
           both comfort and elegance.
         </template>
       </HomePageCardContentComponent>
-
     </CardComponent>
     <CardComponent foo="true">
       <HomePageCardContentComponent>
@@ -44,19 +42,17 @@ import CardComponent from '@/components/CardComponent.vue'
           <img src="@/assets/images/home/floor-13.jpg" alt="flooring" class="object-center object-cover">
         </template>
         <template #title>
-          Premium flooring
+          custom cabinets
         </template>
         <template #text>
-          Revitalize your home with our premium flooring options. From luxurious hardwood to
-          durable tile and cozy carpets, we provide expert installation and design advice to ensure your floors enhance
-          the
-          beauty and functionality of your space.
+          Custom cabinets are ideal for a complete kitchen makeover, offering extensive options for design
+          and layout. They’re perfect if your existing cabinets are in poor condition.
+          With a wide range of wood species, stain colors, and door styles, we’ll help you create a personalized
+          and beautiful kitchen that you’ll love.
         </template>
       </HomePageCardContentComponent>
     </CardComponent>
   </div>
 </template>
-
 <style scoped>
-
 </style>

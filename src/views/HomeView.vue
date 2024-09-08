@@ -35,7 +35,6 @@ import HomePageCardContentComponent from '@/components/HomePageCardContentCompon
           both comfort and elegance.
         </template>
       </HomePageCardContentComponent>
-
     </CardComponent>
     <CardComponent foo="true">
       <HomePageCardContentComponent>

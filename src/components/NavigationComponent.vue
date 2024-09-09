@@ -40,10 +40,10 @@ const toggleMenu = () => {
         <router-link @click="isExpanded = false" :to="{name: 'bath'}" class="py-2 hover:text-blue-500 font-bold">bath</router-link>
       </li>
       <li>
-        <router-link @click="isExpanded = false" :to="{name: 'beyond'}" class="py-2 hover:text-blue-500 font-bold">beyond</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'curtain'}" class="py-2 hover:text-blue-500 font-bold">curtain</router-link>
       </li>
       <li>
-        <router-link @click="isExpanded = false" :to="{name: 'curtain'}" class="py-2 hover:text-blue-500 font-bold">curtain</router-link>
+        <router-link @click="isExpanded = false" :to="{name: 'beyond'}" class="py-2 hover:text-blue-500 font-bold">beyond</router-link>
       </li>
     </ul>
   </nav>

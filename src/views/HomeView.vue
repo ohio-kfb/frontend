@@ -59,3 +59,6 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
 
   </div>
 </template>
+
+<style scoped>
+</style>

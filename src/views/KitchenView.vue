@@ -46,13 +46,13 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
              class="h-36 md:h-44 w-full object-cover object-bottom">
         <div>
           <h3 class="font-bold text-lg mb-4">
-            Premium flooring
+            custom cabinets
           </h3>
           <p>
-            Revitalize your home with our premium flooring options. From luxurious hardwood to
-            durable tile and cozy carpets, we provide expert installation and design advice to ensure your floors enhance
-            the
-            beauty and functionality of your space.
+            Custom cabinets are ideal for a complete kitchen makeover, offering extensive options for design
+            and layout. They’re perfect if your existing cabinets are in poor condition.
+            With a wide range of wood species, stain colors, and door styles, we’ll help you create a personalized
+            and beautiful kitchen that you’ll love.
           </p>
         </div>
       </CardComponent>
@@ -62,5 +62,4 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
 </template>
 
 <style scoped>
-
 </style>

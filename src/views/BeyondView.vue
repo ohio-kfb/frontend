@@ -1,13 +1,12 @@
 <script setup>
 
 import CardComponent from '@/components/CardComponent.vue'
-import RLinkComponent from '@/components/RLinkComponent.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4">
+  <h1 class="text-4xl font-bold uppercase text-cyan-700">Beyond</h1>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 
-    <r-link-component :to="{name: 'kitchen'}" class="no-underline border border-white hover:border-orange-600">
       <CardComponent class="h-full">
         <img src="@/assets/images/home/kit-2.jpg" alt="kitchen" class="h-44 w-full object-cover object-center">
         <div>
@@ -21,9 +20,7 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
           </p>
         </div>
       </CardComponent>
-    </r-link-component>
 
-    <r-link-component :to="{name: 'bath'}" class="no-underline border border-white hover:border-orange-600">
       <CardComponent class="h-full">
         <img src="@/assets/images/home/bath-10.jpg" alt="bathroom" class="h-44 w-full object-cover object-center">
         <div>
@@ -38,9 +35,7 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
           </p>
         </div>
       </CardComponent>
-    </r-link-component>
 
-    <r-link-component :to="{name: 'flooring'}" class="no-underline border border-white hover:border-orange-600">
       <CardComponent class="h-full">
         <img src="@/assets/images/home/floor-13.jpg" alt="flooring"
              class="h-36 md:h-44 w-full object-cover object-bottom">
@@ -56,7 +51,6 @@ import RLinkComponent from '@/components/RLinkComponent.vue'
           </p>
         </div>
       </CardComponent>
-    </r-link-component>
 
   </div>
 </template>

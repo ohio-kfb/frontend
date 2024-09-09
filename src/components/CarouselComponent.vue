@@ -2,6 +2,12 @@
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 
+const breakpoints = {
+  768: {
+    fixedHeight: "250px"
+  }
+}
+
 const slides = [
   {
     title: 'Slide #1',
@@ -23,7 +29,7 @@ const slides = [
 
 <template>
   <div>
-    <vueper-slides>
+    <vueper-slides :breakpoints="breakpoints">
       <vueper-slide
         v-for="(slide, i) in slides"
         :key="i"

@@ -98,7 +98,8 @@ import LinkComponent from '@/components/LinkComponent.vue'
     <CardComponent>
       <h2 class="uppercase font-bold text-xl text-orange-600">contact us</h2>
       <p><span class="font-bold">Tel: </span>
-        <link-component href="tel:+12166305055">+1 216 630 5055</link-component>
+        <link-component href="tel:+12165100152">+1 216 510 0152</link-component>
+        <link-component href="tel:+12169032455">+1 216 903 2455</link-component>
       </p>
       <p><span class="font-bold">E-mail: </span>
         <link-component href="mailto: info@uszenith.com" target="_blank">info@uszenith.com</link-component>
